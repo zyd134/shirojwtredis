@@ -1,0 +1,18 @@
+2022-10-17 17:54:08.157  INFO 19232 --- [restartedMain] com.zhang.ShirojwtredisApplication       : Starting ShirojwtredisApplication using Java 1.8.0_144 on DESKTOP-PPFUJGO with PID 19232 (D:\myWord\shirojwtredis\target\classes started by admin in D:\myWord\shirojwtredis)
+2022-10-17 17:54:08.159  INFO 19232 --- [restartedMain] com.zhang.ShirojwtredisApplication       : No active profile set, falling back to 1 default profile: "default"
+2022-10-17 17:54:08.229  INFO 19232 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-10-17 17:54:08.232  INFO 19232 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-10-17 17:54:08.844  WARN 19232 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.zhang]' package. Please check your configuration.
+2022-10-17 17:54:08.907  INFO 19232 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2022-10-17 17:54:08.909  INFO 19232 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-10-17 17:54:08.929  INFO 19232 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2022-10-17 17:54:09.584  INFO 19232 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-10-17 17:54:09.594  INFO 19232 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-10-17 17:54:09.594  INFO 19232 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-17 17:54:09.687  INFO 19232 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-10-17 17:54:09.688  INFO 19232 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1455 ms
+2022-10-17 17:54:10.176  INFO 19232 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-10-17 17:54:10.454  INFO 19232 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-10-17 17:54:10.950  INFO 19232 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-10-17 17:54:10.995  INFO 19232 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2022-10-17 17:54:11.008  INFO 19232 --- [restartedMain] com.zhang.ShirojwtredisApplication       : Started ShirojwtredisApplication in 3.441 seconds (JVM running for 4.618)
