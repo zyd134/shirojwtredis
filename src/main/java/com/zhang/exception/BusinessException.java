@@ -1,6 +1,7 @@
 package com.zhang.exception;
 
-import com.wz.lesson.exception.code.ResponseCodeInterface;
+import com.zhang.exception.code.ResponseCodeInterface;
+
 /**
  * 自定义的业务逻辑异常类
  在现实实战中，往往我们会在复杂的带有数据库事务的业务中，经常会遇到一些不规则的信息，这个就需要我们后端根据相应的业务

@@ -30,6 +30,7 @@ public enum BaseResponseCode implements ResponseCodeInterface {
     ACCOUNT_HAS_DELETED_ERROR(4010001,"该账号已被删除，请联系系统管理员"),
     TOKEN_PAST_DUE(4010002,"token失效,请刷新token"),
     NOT_PERMISSION(4030001,"没有权限访问该资源"),
+    SYSTEM_BUSY(50002,"系统繁忙，请稍候再试"),
     ;
 
     // 状态码

@@ -1,6 +1,6 @@
 package com.zhang.service;
 
-import com.wz.lesson.exception.BusinessException;
+import com.zhang.exception.BusinessException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Service;
