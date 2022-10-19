@@ -39,7 +39,7 @@
             <property name="enableSubPackages" value="false"/>
         </javaClientGenerator>
         <!--插件扩展类设置为false，避免自动生成SQL语句，以达成练习效果-->
-        <table tableName="users" domainObjectName="Users"
+        <table tableName="sys_user" domainObjectName="Users"
                enableCountByExample="false"
                enableUpdateByExample="false"
                enableDeleteByExample="false"
